@@ -1,0 +1,10 @@
+{
+  "name": "marketplace-weekly-digest-cron",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "schedule": "node --experimental-strip-types src/register_marketplace_digest.ts",
+    "test": "node --experimental-strip-types --test src/digest_schedule.test.ts"
+  }
+}
